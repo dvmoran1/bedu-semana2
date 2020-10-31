@@ -1,0 +1,55 @@
+body{
+    background-color: #fffbf7;
+}
+.header-container-father{
+    margin: 40px 20px;
+    font-size: 0;
+    font-family: sans-serif;
+}
+.header-container-father > *{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+  }
+#img_matcha{
+    width: 15%;
+}
+#img_matcha > img {
+    height: 100%;
+}
+li{
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+#login{
+    text-align: right;
+    width: 15%;
+    font-size: 14px;
+    font-weight: 600;
+}
+#login > * {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#login a{
+    color: #67b54b;
+    text-decoration: none;
+
+}
+#login button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+  }
+
+#navigation{
+    width: 70%;    
+    text-align: center;
+    color: #025157;
+    font-weight: 500; 
+}
